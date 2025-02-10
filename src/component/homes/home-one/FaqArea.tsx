@@ -11,33 +11,33 @@ const faq_data: faqItem[] = [
   {
     id: 1,
     showAnswer: false,
-    title: "What is Blockchain?",
+    title: "What is Poseidon?",
     desc: (<>Blockchain uses consensus mechanisms, such as Proof of Work (PoW) or Proof of Stake (PoS), to validate and agree on the state of the <br /> network. These mechanisms require participants (nodes or validators) to solve complex mathematical puzzles or stake cryptocurrency to <br /> participate in the consensus process</>),
   },
   {
     id: 2,
     showAnswer: false,
-    title: "How is Blockchain Secure?",
+    title: "How is Poseidon Secure?",
     desc: (<>Blockchain uses consensus mechanisms, such as Proof of Work (PoW) or Proof of Stake (PoS), to validate and agree on the state of the <br /> network. These mechanisms require participants (nodes or validators) to solve complex mathematical puzzles or stake cryptocurrency to <br /> participate in the consensus process</>),
   },
-  {
-    id: 3,
-    showAnswer: false,
-    title: "What is the Difference Between Public and Private Blockchains?",
-    desc: (<>Blockchain uses consensus mechanisms, such as Proof of Work (PoW) or Proof of Stake (PoS), to validate and agree on the state of the <br /> network. These mechanisms require participants (nodes or validators) to solve complex mathematical puzzles or stake cryptocurrency to <br /> participate in the consensus process</>),
-  },
+  // {
+  //   id: 3,
+  //   showAnswer: false,
+  //   title: "What is the Difference Between Public and Private Blockchains?",
+  //   desc: (<>Blockchain uses consensus mechanisms, such as Proof of Work (PoW) or Proof of Stake (PoS), to validate and agree on the state of the <br /> network. These mechanisms require participants (nodes or validators) to solve complex mathematical puzzles or stake cryptocurrency to <br /> participate in the consensus process</>),
+  // },
   {
     id: 4,
     showAnswer: false,
-    title: "How Can I Get Started with Blockchain?",
+    title: "How Can I Get Started with Poseidon?",
     desc: (<>Blockchain uses consensus mechanisms, such as Proof of Work (PoW) or Proof of Stake (PoS), to validate and agree on the state of the <br /> network. These mechanisms require participants (nodes or validators) to solve complex mathematical puzzles or stake cryptocurrency to <br /> participate in the consensus process</>),
   },
-  {
-    id: 5,
-    showAnswer: false,
-    title: "What Are Some Real-World Use Cases of Blockchain?",
-    desc: (<>Blockchain uses consensus mechanisms, such as Proof of Work (PoW) or Proof of Stake (PoS), to validate and agree on the state of the <br /> network. These mechanisms require participants (nodes or validators) to solve complex mathematical puzzles or stake cryptocurrency to <br /> participate in the consensus process</>),
-  },
+  // {
+  //   id: 5,
+  //   showAnswer: false,
+  //   title: "What Are Some Real-World Use Cases of Blockchain?",
+  //   desc: (<>Blockchain uses consensus mechanisms, such as Proof of Work (PoW) or Proof of Stake (PoS), to validate and agree on the state of the <br /> network. These mechanisms require participants (nodes or validators) to solve complex mathematical puzzles or stake cryptocurrency to <br /> participate in the consensus process</>),
+  // },
 ]
 
 const FaqArea = () => {
