@@ -1,5 +1,5 @@
 
-const list_data: string[] = ["Privacy and Security", "Cost and Complexity", "Immutable Data", "Regulatory Compliance", "Interoperability", "Energy Consumption"];
+const list_data: string[] = ["Privacy and Security", "Cost and Complexity", "Immutable Data", "Regulatory Compliance"];
 
 const About = () => {
    return (
@@ -27,8 +27,8 @@ const About = () => {
                <div className="col-lg-6">
                   <div className="blc-about__content">
                      <div className="sec-title style2 mb-40">
-                        <h2 className="sec-title__title text-50 mb-25">Blockchain Addressing <br /> Industry Pain Points</h2>
-                        <p>Blockchain technology has brought significant advancements to <br /> various industries. Here are some common pain points faced by <br /> industries when it comes to blockchain addressing.</p>
+                        <h2 className="sec-title__title text-50 mb-25">Poseidon Addressing <br /></h2>
+                        <p>Poseidon has brought significant advancements to <br /> various industries. Here are some common pain points faced by <br /> industries when it comes to poseidon addressing.</p>
                      </div>
                      <ul className="blc-about__list ul_li mt-none-20">
                         {list_data.map((list, i) => (

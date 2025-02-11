@@ -66,7 +66,7 @@ const FooterThree = () => {
             <div className="container">
                <div className="footer__copyright-inner ul_li_between">
                   <div className="footer__copyright-text mt-15">
-                     Copyright © 2025 coindox. All rights reserved.
+                     2024 Think Big Technology®. All Rights Reserved.
                   </div>
                   <ul className="footer__links ul_li_right mt-15">
                      <li><Link to="#">Privacy</Link></li>

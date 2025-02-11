@@ -7,33 +7,33 @@ interface DataType {
 const roadmap_data: DataType[] = [
    {
       id: 1,
-      title: (<>Stage 1 <br /> Q1 - 2023</>),
-      list: ["Ideation", "Proof of Concept", "Business Deck", "Security Audit", "Token on BEP 20"],
+      title: (<>Standard Monthly <br />Streamline projects, track time, collaborate efficiently.</>),
+      list: ["$175 / Month", "*** Per User ***", "Inspections", "Time Tracking", "Project Management", "Scheduling / Dispatching"],
    },
    {
       id: 2,
-      title: (<>Stage 2 <br /> Q2 - 2023</>),
-      list: ["Mainnet Launch", "Smart Contract Upgrade", "Cross-Chain Interoperability", "Governance Model Implementation", "Whitepaper Release"],
+      title: (<>Standard Yearly<br />Streamline projects, track time, collaborate efficiently.</>),
+      list: ["$149 / Month", "*** Per User ***", "Inspections", "Time Tracking", "Project Management", "Scheduling / Dispatching"],
    },
    {
       id: 3,
-      title: (<>Stage 3 <br /> Q3 - 2023</>),
-      list: ["Decentralized Finance Expansion", "Proof of Concept", "Privacy Enhancements", "Developer Grants Program", "BCL Mobile App"],
+      title: (<>Enterprise Monthly<br />Scalable solution with robust features, extensive support</>),
+      list: ["$4,500 / Month", "* Unlimited Users, Flat Pricing", "All Included in Plus", "White Label / Custom Branding", "Custom Integrations", "24/7 Support"],
    },
    {
       id: 4,
-      title: (<>Stage 4 <br /> Q4 - 2023</>),
-      list: ["Builder NFT Airdrop", "Website Launch", "Legal Opinion", "NFT Marketplace Launch", "Whitepaper Release"],
+      title: (<>Enterprise Yearly<br />Scalable solution with robust features, extensive support</>),
+      list: ["$3,825 / Month", "* Unlimited Users, Flat Pricing", "All Included in Plus", "White Label / Custom Branding", "Custom Integrations", "24/7 Support"],
    },
    {
       id: 5,
-      title: (<>Stage 5 <br /> Q5 - 2024</>),
-      list: ["Scalability Improvements", "Real-World Integration", "User-Friendly Wallet", "Sustainable Blockchain", "Global Community Expansion"],
+      title: (<>Plus monthly<br />Advanced features for growth, enhanced reporting.</>),
+      list: ["$289 / Month", "*** Per User ***", "All Included in Standard", "CRM", "Invoicing", "Active Location Tracking"],
    },
    {
       id: 6,
-      title: (<>Stage 6 <br /> Q6 - 2024</>),
-      list: ["Citizenship and land parcel", "Meta Event Arena Launch", "First Planet Phase 1 Launch", "NFT Artist Onboarding Release", "Initial Metaverse Offering Launce"],
+      title: (<>Plus Yearly<br />Advanced features for growth, enhanced reporting.</>),
+      list: ["$245 / Month", "*** Per User ***", "All Included in Standard", "CRM", "Invoicing", "Active Location Tracking"],
    },
 ]
 
@@ -43,7 +43,7 @@ const Roadmap = () => {
          <div className="container">
             <div className="sec-title style2 text-center mb-60">
                <h2 className="sec-title__title text-50 mb-25">Roadmap</h2>
-               <p>blockchain a Solid Infrastructure for Growth</p>
+               {/* <p>blockchain a Solid Infrastructure for Growth</p> */}
             </div>
             <div className="roadmap__list pos-rel">
                {roadmap_data.map((item) => (

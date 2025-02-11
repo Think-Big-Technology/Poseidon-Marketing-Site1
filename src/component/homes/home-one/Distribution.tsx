@@ -11,9 +11,9 @@ const Distribution = () => {
                         <img src="/assets/img/icon/bitcoin_icon.png" alt="" />
                      </div>
                      <div className="sec-title style2 mb-45">
-                        <h2 className="sec-title__title text-50 mb-25">Token Distribution</h2>
-                        <p className="text-20 text-white mb-55">Token distribution refers to the process of allocating and distributing tokens within a blockchain ecosystem.</p>
-                        <p>When a new blockchain project is launched, a specific number of tokens are created, and these tokens are distributed among various stakeholders, including founders.</p>
+                        <h2 className="sec-title__title text-50 mb-25">Essential For Workplaces. Great For Any Team.</h2>
+                        <p className="text-20 text-white mb-55">Poseidon’s powerful features, including seamless project  management, efficient resource allocation, and comprehensive financial  management, help contractors and subcontractors optimize their workflow,  reduce costs, and complete projects on time. By enhancing productivity,  streamlining operations, and maximizing profitability, Poseidon  empowers businesses to achieve greater financial success in the  competitive construction sectors.</p>
+                        {/* <p>When a new blockchain project is launched, a specific number of tokens are created, and these tokens are distributed among various stakeholders, including founders.</p> */}
                      </div>
                   </div>
                </div>
